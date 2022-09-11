@@ -16,7 +16,7 @@
 title: Prime Mods Docs
 description: Our documentation for installing and configuring our products.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://docs.decidev.tk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.prime-modifications.tk" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
