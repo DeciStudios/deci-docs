@@ -148,7 +148,44 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "MaxBlipDrawDistance" refers to the max distance between the player and the blip to draw the text for the blip.
     * "Currency" refers to the currency that will be displayed when purchasing a product, or selling a fish.
     * "SecsTillCatchMin" and "SecsTillCatchMax" are the minimum and maximum values for the time taken for a fish to get caught on your line. When you start fishing, a random value between these two numbers will be picked, and it will wait that time for the fish to get caught in the line.
-    
+8. ### Functions
+    ***WARNING - THIS SECTION IS INTENDED FOR DEVELOPERS***
+    ```lua
+    function Purchase(price)
+        print("PURCHASE")
+        return true 
+
+    end
+
+    function RodCheck()
+        print("ROD CHECK")
+        return true
+
+    end
+
+    function Payout(money)
+        print("PAYOUT")
+
+    end
+
+    function IllegalFish()
+        print("ILLEGAL FISH")
+        ShowNotification("You have been caught in possesion of an illegal fish! You have lost all your fish.")
+        inventory = {}
+        carryingIllegalFish = false
+    end
+    ```
+    These should all be pretty self-explanatory.
+    * "Purchase" is called when attempting to purchase bait. It must return either true or false ("price" is the cost of the product)
+    * "RodCheck" is called when attempting to check if the user has a fishing rod. It must return either true or false.
+    * "Payout" is called when you sell your fish. "money" is the money you sold the fish for.
+    * "IllegalFish" is called when you attempt to sell an illegal fish.
+
+    You also have access to a few variables for your functions. (as seen in the "IllegalFish" example above.)
+    * "inventory" - A table variable that contains your fish.
+    * "carryingIllegalFish" - A boolean variable that defines if you are carrying illegal fish. Saves the hassel of having to loop through your inventory. Is set to true if you keep an illegal fish.
+
+    There are other variables, however they can cause errors and bugs if they are modfied externally.
 ## Support
 
 Read through the instructions again if you have not managed to install or configure the resource. Can’t get it to work still? Create a ticket through our dedicated support system in Discord:
