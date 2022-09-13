@@ -138,6 +138,7 @@ We try to make our resources as easy to understand as possible, however, they ca
     MaxBlipInteractDistance = 5,
     MaxBlipDrawDistance = 10, 
     Currency = "£",
+    MoneyPerKilo = 1,
     SecsTillCatchMin = 10,
     SecsTillCatchMax = 30
     ```
@@ -147,6 +148,7 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "MaxBlipInteractDistance" refers to the max distance between the player and the blip to be able to interact with the blip. (shop/sell place)
     * "MaxBlipDrawDistance" refers to the max distance between the player and the blip to draw the text for the blip.
     * "Currency" refers to the currency that will be displayed when purchasing a product, or selling a fish.
+    * "MoneyPerKilo" refers to the amount of money you will recieve per kilo when selling fish.
     * "SecsTillCatchMin" and "SecsTillCatchMax" are the minimum and maximum values for the time taken for a fish to get caught on your line. When you start fishing, a random value between these two numbers will be picked, and it will wait that time for the fish to get caught in the line.
 8. ### Functions
     ***WARNING - THIS SECTION IS INTENDED FOR DEVELOPERS***
