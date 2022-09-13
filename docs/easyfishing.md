@@ -1,19 +1,19 @@
 ---
 layout: default
-title: 'Fisherman Job'
+title: 'EasyFishing'
 
 has_children: false
 has_toc: true
 ---
 
-<img class='cover-img' src='../../assets/img/fishingJob.png' alt='Fishing Job' draggable='false'>
+<img class='cover-img' src='../../assets/img/fishing.png' alt='Fishing Job' draggable='false'>
 
 
 
-# Deci's Fisherman Job!
+# EasyFishing!
 {: .no_toc}
 
-A guide to installing "Deci's Fisherman Job" onto your FiveM server!
+A guide to installing "EasyFishing" onto your FiveM server!
 
 {: .fs-5 .fw-300 }
 
@@ -33,14 +33,14 @@ table of contents
 Firstly, you must purchase the product from either our Tebex or Discord. (We offer cheaper prices on our discord due to Tebex not taking a cut.)
 If you wish to make the purchase on our discord, create a ticket, and state that you wish to purchase this resource.
 
-[<img class='cover-img' width="21px" style="vertical-align: middle;" src='../../assets/img/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.ea-rp.com){: .btn .btn-blue}
+[<img class='cover-img' width="21px" style="vertical-align: middle;" src='././assets/img/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.prime-modifications.tk/){: .btn .btn-blue}
 
-[<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../assets/img/discord.png' alt='Discord' draggable='false'> Prime Modifications](https://discord.gg/fSjVc83ZYh){: .btn .btn-discord}
+[<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../assets/img/discord.png' alt='Discord' draggable='false'> Prime Modifications](https://dc.prime-modifications.tk){: .btn .btn-discord}
 
 ## Downloading the resource
 
 Upon purchasing the resource, head to [your Keymaster,](https://keymaster.fivem.net/asset-grants) find the resource, and click "Download"
-<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../assets/img/granted_assets.png' alt='Granted Assets' draggable='false'>
+<img class='cover-img' style="vertical-align: middle;" src='../../assets/img/granted_assets.png' alt='Granted Assets' draggable='false'>
 
 ## Installing the resource
 
@@ -171,8 +171,7 @@ We try to make our resources as easy to understand as possible, however, they ca
     function IllegalFish()
         print("ILLEGAL FISH")
         ShowNotification("You have been caught in possesion of an illegal fish! You have lost all your fish.")
-        inventory = {}
-        carryingIllegalFish = false
+        InventoryReset()
     end
     ```
     These should all be pretty self-explanatory.
@@ -181,13 +180,13 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "Payout" is called when you sell your fish. "money" is the money you sold the fish for.
     * "IllegalFish" is called when you attempt to sell an illegal fish.
 
-    You also have access to a few variables for your functions. (as seen in the "IllegalFish" example above.)
-    * "inventory" - A table variable that contains your fish.
-    * "carryingIllegalFish" - A boolean variable that defines if you are carrying illegal fish. Saves the hassel of having to loop through your inventory. Is set to true if you keep an illegal fish.
+    You also have access to a few functions to use. (as seen in the "IllegalFish" example above.)
+    * "ShowNotification" - Displays a default FiveM notification.
+    * "InventoryReset" - Resets your inventory, sets all of their values back to their original state.
 
-    There are other variables, however they can cause errors and bugs if they are modfied externally.
+    *Support will be provided for these functions however it is advised that you have a basic understanding of Lua.*
 ## Support
 
 Read through the instructions again if you have not managed to install or configure the resource. Can’t get it to work still? Create a ticket through our dedicated support system in Discord:
 
-[<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../assets/img/discord.png' alt='Discord' draggable='false'> Prime Modifications](https://discord.gg/fSjVc83ZYh){: .btn .btn-discord}
+[<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../assets/img/discord.png' alt='Discord' draggable='false'> Prime Modifications](https://dc.prime-modifications.tk){: .btn .btn-discord}
