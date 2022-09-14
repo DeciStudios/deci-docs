@@ -63,8 +63,23 @@ We try to make our resources as easy to understand as possible, however, they ca
     This one is pretty self-explanatory. 
     * "FishCommand" refers to the command that is entered to start fishing. 
     * "InvCommand" refers to the command entered to display the fish and bait you currently have.
-
-2. ### Fish
+2. ### KeyBinds
+    ```lua
+    KeyBinds = {
+        KeepFish = 44, 
+        ThrowBackFish = 48,
+        CancelFishing = 44,
+        ReelIn = 46,
+        ShopAndSellInteract = 46 
+    },
+    ```
+    The control IDs for each ingame action. See [FiveM Controls](https://docs.fivem.net/docs/game-references/controls/) for a list.
+    * "KeepFish" keeps the fish you caught when pressed.
+    * "ThrowBackFish" throws back the fish you caught when pressed.
+    * "CancelFishing" stops fishing when pressed at any point.
+    * "ReelIn" is the button that you mash when catching a fish.
+    * "ShopAndSellInteract" is the button you press to interact with all shops and sell places.
+3. ### Fish
     ```lua
     Fish = {
         {name="NAME", model="MODEL", clickCount=0, minWeight=0, maxWeight=0, timeToCatch = 0, legal=false, illegalReason="REASON"}
@@ -78,7 +93,7 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "legal" refers to if the fish is legal or not.
     * "illegalReason" is the reason that will displayed if the fish is illegal. (Leave empty if the fish is set as legal)
     
-3. ### Sell Places
+4. ### Sell Places
     ```lua
     SellPlaces = {
         {name="NAME", colour=0, icon=0, pos= vector3(0,0,0)}
@@ -89,7 +104,7 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "icon" refers to the icon id of the blip. (Go [here](https://docs.fivem.net/docs/game-references/blips/) for a list)
     * "pos" refers to the position of the blip/site, in a format of "vector3(X,Y,Z)".
 
-4. ### Shops
+5. ### Shops
     ```lua
     Shops = {
         {name="Farlows Travel",showNameInMenu= false, slogan="This is a slogan!",colour=30, icon=529, customTitleTexture="https://i.imgur.com/KGnCujw.png", id="fishShop1", pos= vector(-2188.49, -400.14, 13.31)}
@@ -104,7 +119,7 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "id" defines the id that will be used to assign products to the shop.
     * "pos" refers to the position of the blip/shop, in a format of "vector3(X,Y,Z)".
 
-5. ### Products
+6. ### Products
     ```lua
     Products = {
         {name="10x Fishing Bait", description="",amount=10,price=20.00, shops={"fishShop1"}},
@@ -118,20 +133,20 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "price" is the price of the product.
     * "shops" is the IDs of the shops that the product can be purchased from.
     
-6. ### Webhook
+7. ### Webhook
     ```lua
     Webhook = { 
-        url="https://discord.com/api/webhooks/996147288122605609/_Ccjf7kwcjdFrBJSNNrFUMneAuWdXoJ1tK9Tj0KPxifDrWjC841330Tt2UD5jPMAzNv2",
+        url="URL",
         color=11111111,
-        img="https://png.pngtree.com/element_our/png_detail/20181228/vector-fishing-icon-png_299626.jpg"
+        img="IMG"
     },
     ```
 
     * "url" is the url of the Discord webhook you wish to connect the resource to. (Leave blank to disable webhooks)
     * "color" refers to embed colour of the webhook messages. Take a look at [this](https://www.checkyourmath.com/convert/color/rgb_decimal.php) for converting RGB to decimal.
-    * "img" refers to the profile picture of the webhook message.
+    * "img" refers to the profile picture url of the webhook message.
     
-7. ### Misc
+8. ### Misc
     ```lua
     MenuPos = {100,100}, -- THE POSITION OF THE MENU ON THE SCREEN
     DistanceFromWater = 10,
@@ -150,7 +165,7 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "Currency" refers to the currency that will be displayed when purchasing a product, or selling a fish.
     * "MoneyPerKilo" refers to the amount of money you will recieve per kilo when selling fish.
     * "SecsTillCatchMin" and "SecsTillCatchMax" are the minimum and maximum values for the time taken for a fish to get caught on your line. When you start fishing, a random value between these two numbers will be picked, and it will wait that time for the fish to get caught in the line.
-8. ### Functions
+9. ### Functions
     ***WARNING - THIS SECTION IS INTENDED FOR DEVELOPERS***
     ```lua
     function Purchase(price)
@@ -173,14 +188,14 @@ We try to make our resources as easy to understand as possible, however, they ca
     function IllegalFish()
         print("ILLEGAL FISH")
         ShowNotification("You have been caught in possesion of an illegal fish! You have lost all your fish.")
-        InventoryReset()
+        ResetInventory()
     end
     ```
     These should all be pretty self-explanatory.
     * "Purchase" is called when attempting to purchase bait. It must return either true or false ("price" is the cost of the product)
     * "RodCheck" is called when attempting to check if the user has a fishing rod. It must return either true or false.
     * "Payout" is called when you sell your fish. "money" is the money you sold the fish for.
-    * "IllegalFish" is called when you attempt to sell an illegal fish.
+    * "ResetInventory" is called when you attempt to sell an illegal fish.
 
     You also have access to a few functions to use. (as seen in the "IllegalFish" example above.)
     * "ShowNotification" - Displays a default FiveM notification.
