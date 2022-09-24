@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-<img class='cover-img' src='.../assets/img/fishing.png' alt='Fishing Job' draggable='false'>
+<img class='cover-img' src='./././assets/img/fishing.png' alt='Fishing Job' draggable='false'>
 
 
 
@@ -35,14 +35,14 @@ table of contents
 Firstly, you must purchase the product from either our Tebex or Discord. (We offer cheaper prices on our discord due to Tebex not taking a cut.)
 If you wish to make the purchase on our discord, create a ticket, and state that you wish to purchase this resource.
 
-[<img class='cover-img' width="21px" style="vertical-align: middle;" src='.../assets/img/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.prime-modifications.tk/){: .btn .btn-blue}
+[<img class='cover-img' width="21px" style="vertical-align: middle;" src='./././assets/img/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.prime-modifications.tk/){: .btn .btn-blue}
 
-[<img class='cover-img' width="25px" style="vertical-align: middle;" src='.../assets/img/discord.png' alt='Discord' draggable='false'> Prime Modifications](https://dc.prime-modifications.tk){: .btn .btn-discord}
+[<img class='cover-img' width="25px" style="vertical-align: middle;" src='./././assets/img/discord.png' alt='Discord' draggable='false'> Prime Modifications](https://dc.prime-modifications.tk){: .btn .btn-discord}
 
 ## Downloading the resource
 
 Upon purchasing the resource, head to [your Keymaster,](https://keymaster.fivem.net/asset-grants) find the resource, and click "Download"
-<img class='cover-img' style="vertical-align: middle;" src='.../assets/img/granted_assets.png' alt='Granted Assets' draggable='false'>
+<img class='cover-img' style="vertical-align: middle;" src='./././assets/img/granted_assets.png' alt='Granted Assets' draggable='false'>
 
 ## Installing the resource
 
@@ -50,7 +50,7 @@ Upon purchasing the resource, head to [your Keymaster,](https://keymaster.fivem.
 
 2. Ensure or start all resources in server.cfg. Example:
 ```lua
-ensure DeciFishing
+ensure easyfishing
 ```
 
 ## Configuring the resource
@@ -210,4 +210,4 @@ We try to make our resources as easy to understand as possible, however, they ca
 
 Read through the instructions again if you have not managed to install or configure the resource. Can’t get it to work still? Create a ticket through our dedicated support system in Discord:
 
-[<img class='cover-img' width="25px" style="vertical-align: middle;" src='.../assets/img/discord.png' alt='Discord' draggable='false'> Prime Modifications](https://dc.prime-modifications.tk){: .btn .btn-discord}
+[<img class='cover-img' width="25px" style="vertical-align: middle;" src='./././assets/img/discord.png' alt='Discord' draggable='false'> Prime Modifications](https://dc.prime-modifications.tk){: .btn .btn-discord}
