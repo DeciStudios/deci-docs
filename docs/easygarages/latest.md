@@ -172,8 +172,8 @@ We try to make our resources as easy to understand as possible, however, they ca
 
     ```
     These should all be pretty self-explanatory.
-    * "GaragePermCheck" is called when attempting to check if the user has access to a garage category. It must return either true or false.
-    * "LocationPermCheck" is called when attempting to check if the user has access to a garage location. It must return either true or false.
+    * "GaragePermCheck" is called when attempting to check if the user has access to a garage category. It must return either true or false. "garage" is the garage object.
+    * "LocationPermCheck" is called when attempting to check if the user has access to a garage location. It must return either true or false. "location" is the location object.
 
     You also have access to a function to use.
     * "ShowNotification" - Displays a default FiveM notification.
