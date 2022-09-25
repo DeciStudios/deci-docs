@@ -8,7 +8,7 @@ has_children: false
 has_toc: true
 ---
 
-<img class='cover-img' src='../../../assets/img/packages/fishing.png' alt='Fishing Job' draggable='false'>
+<img class='cover-img' src='../../../assets/img/packages/easyfishing-thumb.png' alt='EasyFishing Thumb' draggable='false'>
 
 
 

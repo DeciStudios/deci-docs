@@ -7,7 +7,7 @@ nav_order: 1
 has_children: false
 has_toc: true
 ---
-<img class='cover-img' src='../../../assets/img/packages/garages.png' alt='Fishing Job' draggable='false'>
+<img class='cover-img' src='../../../assets/img/packages/easygarages-thumb.png' alt='EasyGarages Thumb' draggable='false'>
 
 
 
