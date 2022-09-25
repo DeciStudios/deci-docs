@@ -137,7 +137,7 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "color" refers to embed colour of the webhook messages. Take a look at [this](https://www.checkyourmath.com/convert/color/rgb_decimal.php) for converting RGB to decimal.
     * "img" refers to the profile picture url of the webhook message.
     * "name" is the username displayed for the webhook message.
-    * "message" is the message that will be displayed in the webhook message. "|PLAYER|" will become the player name, "|VEHICLE|" will become the vehicle name, "|LOCATION|" will become the location name, and "|GARAGE|" will become the garage name.
+    * "message" is the message that will be displayed in the webhook message. `|PLAYER|` will become the player name, `|VEHICLE|` will become the vehicle name, `|LOCATION|` will become the location name, and `|GARAGE|` will become the garage name.
     
 7. ### CSS
     ```css
