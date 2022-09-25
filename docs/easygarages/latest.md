@@ -76,8 +76,8 @@ We try to make our resources as easy to understand as possible, however, they ca
 3. ### Locations
     ```lua
     Locations = {
-        {name="Police Garage", id="pol", color=29, icon=50, positions={vector3(442,-1021.78,28.54), vector3(532,-26,70.63)}, garages= {"response","fbi"}},
-        {name="Ambo Garage", id="ambo", color=60, icon=50, positions={vector3(290,-591,43.19)}, garages= {"lsa_ambo"}}
+        {name="Police Garage", id="pol", color=29, icon=50, positions={ {position = vector3(442,-1021.78,28.54), heading = 90}, {position= vector3(532,-26,70.63), heading = 210} }, garages= {"response","fbi"}},
+        {name="Ambo Garage", id="ambo", color=60, icon=50, positions={ {position = vector3(290,-591,43.19), heading = 340} }, garages= {"lsa_ambo"}}
     },
     ```
     This one can be a little confusing, due to the amount of fields.
@@ -85,7 +85,9 @@ We try to make our resources as easy to understand as possible, however, they ca
     * "id" is the identifier of the location for usage with permissions.
     * "color" refers to the color id of the blip and marker. (Go [here](https://docs.fivem.net/docs/game-references/blips/#blip-colors/) for a list)
     * "icon" refers to the icon id of the blip. (Go [here](https://docs.fivem.net/docs/game-references/blips/) for a list)
-    * "positions" refers to the each position that the garage is available from, each in a format of "vector3(X,Y,Z)".
+    * "positions" refers to the each position that the garage is available from. 
+        * "position" is the blip/marker position, and where the vehicle will spawn. It must be in a format of "vector3(X,Y,Z)".
+        * "heading" is the heading/yaw rotation that the vehicle will spawn with.
     * "garages" refers to the garage categories that can be accessed through the garage.
     
 4. ### Garages/Garage Categories
