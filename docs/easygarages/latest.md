@@ -125,7 +125,7 @@ We try to make our resources as easy to understand as possible, however, they ca
 6. ### Webhook
     ```lua
     Webhook = {
-        url="https://discord.com/api/webhooks/1019272376648736829/QlOe7MCqCcAdHubYvMto1494IqJi1zjsoJtXFNkMVzeEs1sH0ujRdXMFVX_I5f56eLtc",
+        url="",
         color="11111111",
         img="",
         name="EasyGarages",
