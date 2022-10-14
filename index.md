@@ -47,4 +47,4 @@ Purchase our scripts, as well as a wide variety of beautiful, high-quality vehic
 
 We also sell products at cheaper prices, and provide a 24/7 Customer Support and enquiry line over at our Discord Server, if you require any help with installations, repairs or have any queries regarding our products contact us via our discord server.
 
-[<img class='cover-img' width="25px" style="vertical-align: middle;" src='./assets/img/icons/discord.png' alt='Discord' draggable='false'> Deci Scripting](https://dc.decidev.tk){: .btn .btn-discord}
+[<img class='cover-img' width="25px" style="vertical-align: middle;" src='./assets/img/icons/discord.png' alt='Discord' draggable='false'> Deci Scripting](https://ds.decidev.tk){: .btn .btn-discord}
