@@ -10,9 +10,9 @@ has_toc: true
 
 
 
-# Prime Modifications Resource Documentation
+# Deci Scripting Resource Documentation
 {: .no_toc}
-***The Prime way of Modding FiveM***
+***Your number one store for premium FiveM resources.***
 
 Welcome to our resource documentation. 
 Here you will find all you need to know about downloading, installing, and configuring the resources we offer!
@@ -34,11 +34,8 @@ table of contents
 
 [<img class='cover-img' width="25px" style="vertical-align: middle;" src='./assets/img/icons/youtube.png' alt='YouTube' draggable='false'> Script Showcases](https://www.youtube.com/channel/UC3CL8jOgWuRE6JV9oxsKeOg){: .btn .btn-red}
 
-<img class='cover-img' width="400px" src="https://media.giphy.com/media/xFFbpgPT09cCu3rdYw/giphy.gif" draggable="false">
-<img class='cover-img' width="400px" src="https://media.giphy.com/media/ED7kay0S3IyR55wvoK/giphy.gif" draggable="false">
-<img class='cover-img' width="400px" src="https://media.discordapp.net/attachments/933001131997663263/1013443058706169946/unknown.png?width=1193&height=671" draggable="false">
-<img class='cover-img' width="400px" src="https://media.giphy.com/media/k5Y6kog8beH1GJg2DT/giphy-downsized-large.gif" draggable="false">
-<img class='cover-img' width="400px" src="https://cdn.discordapp.com/attachments/933001131997663263/1008764820092358686/unknown.png" draggable="false">
+<img class='cover-img' width="400px" src="assets/img/packages/easyfishing-thumb.png" draggable="false">
+<img class='cover-img' width="400px" src="assets/img/packages/easygarages-thumb.png" draggable="false">
 
 ## Our Store
 
