@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Prime Mods Docs
+title: Deci Scripting Docs
 description: Our documentation for installing and configuring our products.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://docs.prime-modifications.tk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.decidev.tk" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
@@ -65,7 +65,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Our website":
-    - "//prime-modifications.tk"
+    - "//decidev.tk"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
