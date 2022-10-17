@@ -39,7 +39,7 @@ table of contents
 
 ## Our Store
 
-Purchase our scripts, as well as a wide variety of beautiful, high-quality vehicles on our Tebex:
+Purchase our premium scripts on our Tebex:
 
 [<img class='cover-img' width="21px" style="vertical-align: middle;" src='./assets/img/icons/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.decidev.tk/){: .btn .btn-blue}
 
