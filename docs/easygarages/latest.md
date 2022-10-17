@@ -3,7 +3,7 @@ layout: default
 title: 1.0.0 (latest)
 parent: EasyGarages
 nav_order: 1
-
+color_scheme: dark
 has_children: false
 has_toc: true
 ---

@@ -3,7 +3,7 @@ layout: default
 title: '1.1.0 (latest)'
 parent: EasyFishing
 nav_order: 2
-
+color_scheme: dark
 has_children: false
 has_toc: true
 ---
