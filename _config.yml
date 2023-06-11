@@ -16,7 +16,7 @@
 title: Deci Scripting Documentation
 description: Our documentation for installing and configuring our products.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://docs.decidev.tk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.decidev.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
@@ -65,7 +65,7 @@ heading_anchors: true
 # Aux links for the upper right navigation
 aux_links:
   "Our website":
-    - "//decidev.tk"
+    - "//store.decidev.co.uk"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
