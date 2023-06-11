@@ -41,10 +41,10 @@ table of contents
 
 Purchase our premium scripts on our Tebex:
 
-[<img class='cover-img' width="21px" style="vertical-align: middle;" src='./assets/img/icons/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.decidev.tk/){: .btn .btn-blue}
+[<img class='cover-img' width="21px" style="vertical-align: middle;" src='./assets/img/icons/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.decidev.co.uk/){: .btn .btn-blue}
 
 ## Our Discord
 
 We also sell products at cheaper prices, and provide a 24/7 Customer Support and enquiry line over at our Discord Server, if you require any help with installations, repairs or have any queries regarding our products contact us via our discord server.
 
-[<img class='cover-img' width="25px" style="vertical-align: middle;" src='./assets/img/icons/discord.png' alt='Discord' draggable='false'> Deci Scripting](https://ds.decidev.tk){: .btn .btn-discord}
+[<img class='cover-img' width="25px" style="vertical-align: middle;" src='./assets/img/icons/discord.png' alt='Discord' draggable='false'> Deci Scripting](https://ds.decidev.co.uk){: .btn .btn-discord}

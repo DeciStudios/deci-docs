@@ -34,9 +34,9 @@ table of contents
 Firstly, you must purchase the product from either our Tebex or Discord. (We offer cheaper prices on our discord due to Tebex not taking a cut.)
 If you wish to make the purchase on our discord, create a ticket, and state that you wish to purchase this resource.
 
-[<img class='cover-img' width="21px" style="vertical-align: middle;" src='../../../assets/img/icons/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.decidev.tk/){: .btn .btn-blue}
+[<img class='cover-img' width="21px" style="vertical-align: middle;" src='../../../assets/img/icons/prime.png' alt='Tebex' draggable='false'> Tebex Store](https://store.decidev.co.uk/){: .btn .btn-blue}
 
-[<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../../assets/img/icons/discord.png' alt='Discord' draggable='false'> Deci Scripting](https://ds.decidev.tk){: .btn .btn-discord}
+[<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../../assets/img/icons/discord.png' alt='Discord' draggable='false'> Deci Scripting](https://ds.decidev.co.uk){: .btn .btn-discord}
 
 ## Downloading the resource
 
@@ -185,4 +185,4 @@ We try to make our resources as easy to understand as possible, however, they ca
 
 Read through the instructions again if you have not managed to install or configure the resource. Can’t get it to work still? Create a ticket through our dedicated support system in Discord:
 
-[<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../../assets/img/icons/discord.png' alt='Discord' draggable='false'> Deci Scripting](https://ds.decidev.tk){: .btn .btn-discord}
+[<img class='cover-img' width="25px" style="vertical-align: middle;" src='../../../assets/img/icons/discord.png' alt='Discord' draggable='false'> Deci Scripting](https://ds.decidev.co.uk){: .btn .btn-discord}
